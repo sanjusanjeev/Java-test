@@ -18,4 +18,7 @@ public class Conversion {
             System.out.println(obj + " "); 
             
         }
+
+	public void convert() {
+	}
     }

@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Comma {
     public static void main(String[] args) {
         String words = "My, Name, is, Sanju";
-        String ltr[] = words.split(",");
+        String ltr[] = words.split("//s*,//s*");
         List<String> alist = Arrays.asList(ltr);
         ArrayList<String> lst = new ArrayList<String>(alist);
         System.out.println(lst);
