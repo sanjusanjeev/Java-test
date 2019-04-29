@@ -3,7 +3,6 @@ package com.kgisl.qs1;
 /**
  * StringConcat
  */
-import java.io.*;
 public class StringConcat {
 public static void main(String[] args) {
     
